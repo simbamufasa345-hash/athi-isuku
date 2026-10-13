@@ -1,0 +1,68 @@
+body{
+    background-color: #542a52;
+}
+
+.name {
+    text-align: center;
+    font-size: 500%;
+    border-radius: 10px;
+    border-width: 75%;
+    width: 50%;
+    margin-left: 25%;
+    font-family: Allura;
+    padding-top: 10px;
+    cursor: pointer;
+    color: #FFB39A;
+    display: block;
+}
+
+.name:hover{
+     color:azure
+}
+
+.details{
+    text-align: center;
+    font-size: 50px;
+    text-transform: capitalize;
+    font-family: Allura;
+    font-weight: bolder;
+
+}
+
+.moredetail{
+    text-decoration: none;
+    color:  #FFB39A;
+    border: 2px solid;
+    padding: 10px 20px;
+    border-radius: 50px;
+}
+
+.moredetail:hover{
+     color:azure;
+     background-color: #542a5246;
+     border-radius: 50px;
+}
+
+.p1{
+    display: block;
+    text-align: center;
+    padding: 50px;
+}
+
+.profiles{
+    border: 2px solid;
+    padding: 10px 12px 12px 12px;
+    font-size: 30px;
+    cursor: pointer;
+    border-radius: 50px;
+    transition: background-color 0.15s, color 0.15s, padding 0.15s;
+    color: #FFB39A;
+    text-decoration: none;
+}
+
+.profiles:hover{
+    background-color: #FFB39A;
+    color:#542a52;
+    padding: 15px 20px 20px 20px;
+    transition: background-color 0.3s, color 0.3s, padding 0.3s;
+} 

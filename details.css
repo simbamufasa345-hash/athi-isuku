@@ -1,0 +1,67 @@
+body{
+    background-color: rgba(35, 212, 65, 0.685);
+    text-align: center;
+}
+
+.name,h2{
+  font-family: Dancing Script;
+  font-weight: bolder;
+  font-size: 50px;
+
+}
+
+img{
+    width: 200px;
+    height: 100%;
+}
+
+button{
+    font-size: 50px;
+    border-radius: 25px;
+    height: 75px;
+    width: 500px;
+    background-color: rgb(18, 88, 150);
+    color: aliceblue;
+    cursor: pointer;
+    box-shadow: 5px 5px 0px rgba(0, 0, 0, 0.3);
+    transition: height 0.15s, width 0.15s;
+}
+
+button:hover{
+    background-color: rgb(63, 128, 55);
+    opacity: 90%;
+    height: 90px;
+    width: 550px;
+    transition: background-color 0.15s, opacity 0.15s, height 0.15s, width 0.15s;
+}
+
+button:active{
+    background-color: blue;
+    transition: background-color 0.15s;
+}
+
+.back{
+    font-size: 20px;
+    padding-bottom: 100px;
+    color: aliceblue;
+    display: inline;
+}
+
+a{
+    border: 2px solid black;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 20px;
+    background-color: antiquewhite;
+    transition: background-color 0.15s, padding 0.15s;
+}
+
+a:hover{
+    background-color: aquamarine;
+    color:darkmagenta;
+    padding:20px 25px;
+    border-radius:30px ;
+    border-color: rgb(12, 12, 12);  
+    transition: background-color 0.15s, padding 0.15s;
+    font-size: 25px;
+}

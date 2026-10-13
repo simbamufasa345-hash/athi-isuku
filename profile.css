@@ -1,0 +1,82 @@
+.div1{
+    display: inline-block;
+    padding: 10px;
+    height:auto;
+    width: auto;
+    max-width: 500px;   
+    min-width: 100px;
+    min-height: 100px;
+    max-height: 500px;
+    border: 4px solid;
+    border-radius: 10px;
+    margin: 25px 25px;
+    cursor: pointer;
+    text-align: center;
+    background-color: antiquewhite;
+    font-family: 'Times New Roman', Times, serif;
+    border-color: blueviolet;
+    vertical-align:top;
+    transform: scale(1);
+    transition: transform 0.15s, background-color 0.15s;
+}
+
+.profile1{
+    height:200px;
+    width: 200px; 
+    object-fit: cover;
+    border-radius: 100px;
+    border: 5px solid blueviolet;
+}
+
+body{
+    background-color: aliceblue;
+}
+
+.text{
+    padding: 2px;
+    text-transform: uppercase;
+    font-family: ms Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.divinside{
+    border: 5px solid black;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: rgb(57, 177, 207);
+}
+
+.div1:hover{
+    transform: scale(1.1);
+    transition: transform 0.15s, background-color 0.15s;
+    background-color: rgb(207, 170, 120);
+}
+
+.backbutton{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+
+}
+
+.abutton{
+    text-decoration: none;
+    display: inline-block;
+    border: 2px solid black;
+    padding: 20px 40px;
+    background-color: rgb(10, 10, 10);
+    color: rgb(5, 5, 5);
+    border-radius: 60px;
+    transform: scale(1);
+    transition: transform 0.15s;
+}
+
+.abutton:hover{
+    transform: scale(1.2);
+    transition: transform 0.15s;
+}
